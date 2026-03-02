@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+
+# Environment variables
+
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Test files
+test
+tests
+*.test.js
+*.spec.js
+
+# Documentation
+README.md
+docs
+
+# Misc
+*.md
+.eslintrc*
+.prettierrc*
