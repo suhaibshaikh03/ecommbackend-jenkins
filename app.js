@@ -26,7 +26,7 @@ DBconnection();
 
 // Routes
 app.get("/", (req, res) => {
-    res.send("E-Commerce Backend API is running! Suhaib");
+    res.send("E-Commerce Backend API is running!");
 });
 
 app.use("/api/auth", authRoutes);
